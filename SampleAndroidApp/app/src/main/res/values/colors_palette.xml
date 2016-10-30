@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="palette_blue">#380e8e</color>
+    <color name="palette_red">#FA8072</color>
+    <color name="palette_green">#21d125</color>
+    <color name="palette_beige">#FFF8DC</color>
+</resources>

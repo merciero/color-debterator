@@ -43,3 +43,14 @@ jspm_packages
 # Output of 'npm pack'
 *.tgz
 .idea
+
+*.iml
+SampleAndroidApp/.gradle
+SampleAndroidApp/local.properties
+SampleAndroidApp/.idea/workspace.xml
+SampleAndroidApp/.idea/libraries
+.DS_Store
+SampleAndroidApp/build
+SampleAndroidApp/captures
+.externalNativeBuild
+

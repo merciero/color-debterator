@@ -148,7 +148,7 @@ function applyPaletteToInput(inputColors) {
         if (inputColor.closeTarget.distance <= TOLERANCE) {
             var logContent = `Replacing ${inputColor.originalXmlValue} by @color/${inputColor.closeTarget.name}`;
             if (hasTransparency) {
-                console.log(CHALK.orange(logContent)); // we need to be extra careful of colors with transparency
+                console.log(CHALK.yellow(logContent)); // we need to be extra careful of colors with transparency
             } else {
                 console.log(logContent);
             }
@@ -162,12 +162,11 @@ function applyPaletteToInput(inputColors) {
             });
 
         } else {
-            var logContent = `${inputColor.originalXmlValue} is too far from ${inputColor.closeTarget.name} \
-                    (Distance ${inputColor.closeTarget.distance} > ${TOLERANCE} )`;
+            var logContent = `${inputColor.originalXmlValue} is too far from ${inputColor.closeTarget.name} (Distance ${inputColor.closeTarget.distance} > ${TOLERANCE} )`;
             if (hasTransparency) {
                 console.log(CHALK.yellow(logContent)); // we need to be extra careful of colors with transparency
             } else {
-                console.log();
+                console.log(logContent);
             }
 
         }
