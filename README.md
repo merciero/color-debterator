@@ -12,9 +12,18 @@ $ npm install
 $ node app.js <path_color_file.xml> <path_color_palette_file.xml> <tolerance_value>
 ```
 
+# Before / After
+
+Example with a tolerance value of '20'
+
+![BeforeAfter](/images/before_after.png)
+
 # Output
 
 You should get the following:
 
 ![ScreenShot](/images/sample.png)
 
+# More info
+
+[You can check out the youtube video that showcases the tool](https://www.youtube.com/watch?v=j65MFLd1w9A)
