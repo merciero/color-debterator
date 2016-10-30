@@ -11,3 +11,9 @@ $ cd color-debterator
 $ npm install
 $ node app.js <path_to_your_main_android_color_file.xml> <path_to_your_android_color_palette_file.xml> <tolerance_value>
 ```
+
+# Output
+
+You should get the following:
+![](https://raw.githubusercontent.com/merciero/color-debterator/master/sample_execution.png]
+
