@@ -15,5 +15,6 @@ $ node app.js <path_to_your_main_android_color_file.xml> <path_to_your_android_c
 # Output
 
 You should get the following:
+
 ![ScreenShot](/images/sample.png)
 
