@@ -15,5 +15,5 @@ $ node app.js <path_to_your_main_android_color_file.xml> <path_to_your_android_c
 # Output
 
 You should get the following:
-![](https://raw.githubusercontent.com/merciero/color-debterator/master/sample_execution.png]
+![](sample_execution.png?raw=true]
 
